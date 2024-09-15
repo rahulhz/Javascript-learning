@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="week">Monday</div>
+    <div class="week">Tuesday</div>
+    <div class="week">Thursday</div>
+    <div class="week">friday</div>
+    <div class="week">Saturday</div>
+    <div class="week">Sunday</div>
+</body>
+<script>
+    let week = document.querySelectorAll(".week");
+
+    week.forEach((days)=>{
+        console.log(days);
+    })
+</script>
+</html>
